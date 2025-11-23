@@ -15,7 +15,7 @@ export default function Newsletter() {
 
 	return (
 		<section className='py-6 bg-white border-t-40 border-[#0F173D]'>
-			<div className='flex items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-8'>
+			<div className='flex flex-col md:flex-row items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-8'>
 				<div>
 					<h2 className='text-3xl md:text-4xl font-bold text-foreground mb-2'>
 						Stay in the Loop with ColdLync!
