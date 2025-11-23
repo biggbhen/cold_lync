@@ -21,8 +21,8 @@ export default function LandingPage() {
 				<Operator />
 				<Testimonials />
 				<Newsletter />
-				<Footer />
 			</main>
+			<Footer />
 		</div>
 	);
 }

@@ -1,10 +1,10 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-import truckImage from '@/app/assets/operator.png';
+import truckImage from '@/app/assets/operator_img_about.png';
 
 export default function Operator() {
 	return (
-		<section>
+		<section className='mb-16 md:mb-20'>
 			<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 				<div className='bg-slate-900 rounded-3xl overflow-hidden p-8 md:p-12 lg:p-16'>
 					<div className='flex flex-col md:flex-row items-center gap-8 md:gap-12 lg:gap-16'>
@@ -20,13 +20,13 @@ export default function Operator() {
 						</div>
 
 						{/* Content on the right */}
-						<div className='flex-1 flex flex-col justify-center'>
+						<div className='w-full md:flex-1 flex flex-col justify-center'>
 							<h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6 leading-tight'>
-								Own a Cold Truck? Earn More With ColdLync.
+								Move cold goods without the uncertainty.
 							</h2>
 							<p className='text-lg md:text-xl text-gray-200 mb-8 leading-relaxed max-w-xl'>
-								Register your truck and get access to verified shipments. We
-								handle bookings, you deliver.
+								Access reliable refrigerated vans and trucks on demand, and
+								reserve cold rooms or warehouses near key markets.
 							</p>
 							<div className='w-fit'>
 								<Button

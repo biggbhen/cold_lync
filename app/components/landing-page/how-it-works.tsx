@@ -38,7 +38,7 @@ export default function HowItWorks() {
 					</p>
 				</div>
 
-				<div className='grid md:grid-cols-3 gap-10'>
+				<div className='grid custom-lg:grid-cols-3 gap-10'>
 					{steps.map((step, index) => (
 						<div key={index} className='relative'>
 							<div className='bg-white shadow-lg border p-8 rounded-lg h-full'>

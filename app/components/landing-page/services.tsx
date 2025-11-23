@@ -39,18 +39,18 @@ export default function Services() {
 					</p>
 				</div>
 
-				<div className='grid md:grid-cols-3 gap-8'>
+				<div className='grid custom-lg:grid-cols-3 gap-8 items-stretch'>
 					{services.map((service, index) => (
-						<div key={index} className={`flex flex-col shadow-lg`}>
+						<div key={index} className='flex flex-col h-full'>
 							<div className='h-[200px] relative'>
 								<Image
 									src={service.img}
 									alt={service.title}
 									fill
-									className='object-cover'
+									className='object-cover rounded-t-lg'
 								/>
 							</div>
-							<div className='p-8 bg-[#0F173D] rounded-b-lg'>
+							<div className='p-8 bg-[#0F173D] rounded-b-lg flex flex-col flex-1'>
 								<h3 className='text-xl font-bold text-white text-center mb-3'>
 									{service.title}
 								</h3>
@@ -59,7 +59,7 @@ export default function Services() {
 								</p>
 								<Button
 									variant='outline'
-									className='border-primary bg-[#3493F2] text-white hover:bg-[#3493F2]/90 w-full hover:text-white/90 cursor-pointer'>
+									className='border-primary bg-[#3493F2] text-white hover:bg-[#3493F2]/90 w-full hover:text-white/90 cursor-pointer mt-auto'>
 									Book Now
 								</Button>
 							</div>

@@ -19,35 +19,37 @@ export default function Header() {
 				</div>
 
 				{/* Desktop Navigation */}
-				<div className='hidden md:flex items-center gap-8'>
+				<div className='hidden custom-lg:flex items-center gap-8'>
 					<Link
-						href='#'
+						href='/'
 						className='text-foreground hover:text-primary transition'>
 						Home
 					</Link>
 					<Link
-						href='#'
+						href='/book'
 						className='text-foreground hover:text-primary transition'>
 						Book Cold Transport
 					</Link>
 					<Link
-						href='#'
+						href='/about'
 						className='text-foreground hover:text-primary transition'>
 						About Us
 					</Link>
 					<Link
-						href='#'
+						href='/track'
 						className='text-foreground hover:text-primary transition'>
 						Track Delivery
 					</Link>
 				</div>
 
 				{/* Mobile Menu Button */}
-				<button className='md:hidden p-2' onClick={() => setIsOpen(!isOpen)}>
+				<button
+					className='custom-lg:hidden p-2'
+					onClick={() => setIsOpen(!isOpen)}>
 					{isOpen ? <X size={24} /> : <Menu size={24} />}
 				</button>
 
-				<Button className='hidden md:flex gap-2 bg-[#3493F2] text-white hover:bg-[#3493F2]/90'>
+				<Button className='hidden custom-lg:flex gap-2 bg-[#3493F2] text-white hover:bg-[#3493F2]/90'>
 					Join as Operator
 				</Button>
 
@@ -56,22 +58,22 @@ export default function Header() {
 					<div className='absolute top-full left-0 right-0 bg-white border-b border-border md:hidden'>
 						<div className='flex flex-col gap-4 p-4'>
 							<Link
-								href='#'
+								href='/'
 								className='text-foreground hover:text-primary transition'>
 								Home
 							</Link>
 							<Link
-								href='#'
+								href='/book'
 								className='text-foreground hover:text-primary transition'>
 								Book Cold Transport
 							</Link>
 							<Link
-								href='#'
+								href='/about'
 								className='text-foreground hover:text-primary transition'>
 								About Us
 							</Link>
 							<Link
-								href='#'
+								href='/track'
 								className='text-foreground hover:text-primary transition'>
 								Track Delivery
 							</Link>

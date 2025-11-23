@@ -45,7 +45,7 @@ export default function Benefits() {
 					</p>
 				</div>
 
-				<div className='grid md:grid-cols-4 gap-6'>
+				<div className='grid md:grid-cols-2 gap-6'>
 					{services.map((service, index) => (
 						<div
 							key={index}

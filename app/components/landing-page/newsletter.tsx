@@ -20,7 +20,7 @@ export default function Newsletter() {
 					<h2 className='text-3xl md:text-4xl font-bold text-foreground mb-2'>
 						Stay in the Loop with ColdLync!
 					</h2>
-					<p className='text-lg text-muted-foreground mb-8'>
+					<p className='text-lg text-muted-foreground'>
 						Subscribe to our newsletter and be the first to discover exclusive
 						deals, and new arrivals.
 					</p>
