@@ -82,14 +82,14 @@ export default function Footer() {
 								</li>
 								<li>
 									<Link
-										href='#'
+										href='/faq'
 										className='text-white/70 hover:text-white transition text-sm'>
 										FAQs
 									</Link>
 								</li>
 								<li>
 									<Link
-										href='#'
+										href='/track'
 										className='text-white/70 hover:text-white transition text-sm'>
 										Track Delivery
 									</Link>
@@ -103,21 +103,21 @@ export default function Footer() {
 							<ul className='space-y-2'>
 								<li>
 									<Link
-										href='#'
+										href='/terms'
 										className='text-white/70 hover:text-white transition text-sm'>
 										Terms & Conditions
 									</Link>
 								</li>
 								<li>
 									<Link
-										href='#'
+										href='/privacy'
 										className='text-white/70 hover:text-white transition text-sm'>
 										Privacy Policy
 									</Link>
 								</li>
 								<li>
 									<Link
-										href='#'
+										href='/refund'
 										className='text-white/70 hover:text-white transition text-sm'>
 										Refund & Cancellation
 									</Link>

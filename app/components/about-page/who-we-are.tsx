@@ -28,7 +28,7 @@ export default function WhoWeAre() {
 						infrastructure.
 					</p>
 				</div>
-				<div className='grid md:grid-cols-2 gap-8'>
+				<div className='grid custom-lg:grid-cols-2 gap-8'>
 					<div>
 						<Image
 							src={truckImage}
@@ -50,7 +50,7 @@ export default function WhoWeAre() {
 							enabling reliable, temperature-controlled delivery across food,
 							pharma, agriculture, and FMCG supply chains.
 						</p>
-						<div className='grid md:grid-cols-2 gap-10 mt-6'>
+						<div className='grid custom-lg:grid-cols-2 gap-6 mt-6'>
 							{steps.map((step, index) => (
 								<div key={index} className='relative'>
 									<div className='bg-white shadow-lg border p-8 rounded-lg h-full'>

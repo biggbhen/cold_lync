@@ -16,9 +16,9 @@ import Newsletter from '../components/landing-page/newsletter';
 // });
 
 export const metadata: Metadata = {
-	title: 'About Us - ColdLync | Cold Chain Logistics in Nigeria',
+	title: 'FAQ - ColdLync | Cold Chain Logistics in Nigeria',
 	description:
-		"Learn more about ColdLync, Nigeria's first comprehensive cold-chain logistics and storage platform.",
+		"Frequently asked questions about ColdLync, Nigeria's first comprehensive cold-chain logistics and storage platform.",
 	generator: 'v0.app',
 };
 
